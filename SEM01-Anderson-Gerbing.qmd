@@ -1,0 +1,234 @@
+---
+title: "Article Notes: The Two-Step Approach to Structural Equation Modeling"
+author: "Willy Su"
+date: "2026-09-29"
+format:
+  html:
+    toc: true
+    number-sections: true
+    embed-resources: true
+---
+
+# Introduction
+
+-   Anderson and Gerbing (1988) discuss how structural equation modeling (SEM) can be used effectively for theory testing and theory development.
+
+-   The authors explain that although SEM provides researchers with powerful tools for evaluating theoretical models, its complexity can also create problems when the modeling process is not handled carefully.
+
+-   A major idea of the article is that SEM involves two conceptually different components: a measurement model and a structural model.
+
+-   The measurement model examines how observed measures relate to their proposed underlying constructs, while the structural model examines the hypothesized relationships among those constructs.
+
+-   The authors recommend a two-step approach in which researchers first evaluate and, when necessary, respecify the measurement model before evaluating the structural model.
+
+-   Separating these two stages helps researchers make more meaningful conclusions about constructs and their relationships while reducing the risk of misleading interpretations.
+
+# Background
+
+## Exploratory Versus Confirmatory Analyses
+
+-   Exploratory and confirmatory analyses should not be viewed as completely separate types of analysis. Instead, they can be understood as stages along an ordered progression.
+
+-   Exploratory factor analysis begins with little or no prior specification about the number or structure of the underlying factors.
+
+-   Analysis becomes more confirmatory when researchers specify the number of factors and eventually define a measurement model before estimating its parameters.
+
+-   Even a model that begins as confirmatory may require respecification when the initial model does not fit the data adequately. Because these changes are based on the same data, the analysis is no longer purely confirmatory.
+
+-   After an acceptable model has been developed, cross-validating the final model with a different sample provides a stronger confirmatory test.
+
+-   The most strictly confirmatory situation occurs when the same model is tested on another sample with its parameters constrained to values estimated previously.
+
+## Complementary Approaches for Theory Testing Versus Predictive Application
+
+-   Structural equation modeling can be used for different purposes, including theory testing and prediction.
+
+-   For theory testing, the authors discuss maximum likelihood (ML) and generalized least squares (GLS) as useful estimation methods.
+
+-   ML and GLS allow researchers to consider measurement error and examine how well the overall model fits the data.
+
+-   For prediction, partial least squares (PLS) can be useful because it focuses more on explaining variance and predicting outcomes.
+
+-   However, PLS does not provide the same overall model fit test and does not directly evaluate unidimensional measurement.
+
+-   The authors explain that these methods have different strengths. ML or GLS is more focused on theory testing, while PLS is more focused on prediction and practical applications.
+
+## Estimation Methods
+
+-   Maximum likelihood (ML) has been one of the main estimation methods used in structural equation modeling.
+
+-   ML works well when the observed variables follow a multivariate normal distribution, especially with larger samples.
+
+-   One advantage of ML is that researchers can test individual parameters and also evaluate the overall fit of the model.
+
+-   A problem is that when the data are not normally distributed, the standard errors and chi-square test may become less accurate.
+
+-   Newer estimation methods were developed to deal with data that do not meet the normality assumption.
+
+-   The authors explain that researchers should choose an estimation method based on the characteristics of their data and the assumptions they can reasonably make.
+
+# Confirmatory Measurement Model
+
+-   A confirmatory measurement model explains how observed measures are related to their underlying constructs.
+
+-   The model allows the constructs to be related to each other while examining whether the observed measures represent the constructs as expected.
+
+-   Measurement error is also included in the model because observed measures may not perfectly represent the underlying constructs.
+
+-   Evaluating the measurement model is important because researchers need to make sure the constructs are measured properly before testing relationships among them.
+
+## Need for Unidimensional Measurement
+
+-   Unidimensional measurement means that a set of indicators should measure one common underlying construct.
+
+-   The authors explain that unidimensionality is important because researchers need to clearly understand what each construct represents.
+
+-   Internal consistency and external consistency are two criteria that can be used to evaluate unidimensionality.
+
+-   The authors prefer using multiple indicators for each construct because this helps researchers define the meaning of the construct more clearly.
+
+-   Ideally, each measure should represent only one construct. Indicators that measure multiple constructs can make the meaning of the construct difficult to interpret.
+
+-   Overall, establishing good measurement is an important step before researchers evaluate the structural relationships among constructs.
+
+## Specification
+
+-   Researchers need to set the scale of the factors so that the measurement model can be properly estimated.
+
+-   The authors recommend setting the variance of each factor to 1.0 because this allows researchers to test whether the factor loadings are significant.
+
+-   Using multiple indicators for each construct is preferred, but sometimes only one indicator is available.
+
+-   When only one indicator is available, researchers need to make assumptions about its measurement error because the indicator is unlikely to measure the construct perfectly.
+
+-   Sample size is also important because SEM estimation methods generally work better with larger samples.
+
+-   The authors suggest that a sample size of about 150 or more is usually needed to obtain useful estimates, especially for models with three or more indicators per factor.
+
+-   Small samples can increase the chance of problems such as nonconvergence or improper solutions.
+
+## Assessment of Fit
+
+-   After estimating the measurement model, researchers need to check how well the model fits the observed data.
+
+-   Different goodness-of-fit measures can be used, including the chi-square test, goodness-of-fit index, and root-mean-square residual.
+
+-   Convergent validity can be evaluated by checking whether each indicator has a significant loading on the construct it is supposed to measure.
+
+-   Discriminant validity examines whether two constructs are actually different from each other.
+
+-   One way to test discriminant validity is to compare a model where the correlation between two constructs is fixed at 1.0 with a model where the correlation is freely estimated.
+
+-   A significant difference between these models provides evidence that the two constructs are not perfectly correlated and supports discriminant validity.
+
+-   Researchers should consider several measures of model fit instead of depending on only one result.
+
+## Respecification
+
+-   Measurement models often need some respecification when the original model does not fit the data well.
+
+-   Respecification decisions should not be based only on statistical results. Researchers should also consider theory and the meaning of the measures.
+
+-   If an indicator does not work as expected, researchers can move it to a different factor or remove it from the model.
+
+-   Other options include allowing an indicator to relate to multiple factors or allowing correlated measurement errors, but these options can make the constructs harder to interpret.
+
+-   The authors prefer changes that maintain unidimensional measurement because they help keep the meaning of each construct clear.
+
+-   Residuals can help researchers identify which indicators may be causing problems in the measurement model.
+
+-   Improving model fit should not come at the cost of theoretical meaning or clear interpretation of the constructs.
+
+# One-Step Versus Two-Step Modeling Approaches
+
+## The Confirmatory Structural Model
+
+-   The structural model focuses on the relationships among the constructs in the model.
+
+-   It shows how different constructs are expected to affect or relate to one another based on the researcher's theory.
+
+-   Endogenous constructs have their causes included within the model, while the causes of exogenous constructs are outside the model.
+
+-   In a one-step approach, the measurement model and structural model are estimated at the same time.
+
+-   A problem with the one-step approach is interpretational confounding, which can happen when the meaning of a construct changes depending on how the structural model is specified.
+
+-   Estimating the measurement model first can reduce this problem because researchers can establish the meaning of the constructs before testing their structural relationships.
+
+## Recommended Two-Step Modeling Approach
+
+-   The authors recommend separating SEM analysis into two main steps instead of testing everything at the same time.
+
+-   In the first step, researchers estimate the measurement model to make sure the observed indicators properly represent their intended constructs.
+
+-   Researchers should check model fit, unidimensionality, convergent validity, and discriminant validity before moving to the structural model.
+
+-   If the measurement model does not fit well, researchers should identify the problems and respecify the model when there is theoretical support for the changes.
+
+-   In the second step, researchers test the structural model after an acceptable measurement model has been established.
+
+-   The structural model is used to examine the relationships among the constructs and determine whether the proposed theoretical relationships are supported.
+
+-   The authors also recommend comparing a series of nested structural models. These models range from a null model with no relationships among constructs to a saturated model where all possible relationships are estimated.
+
+-   Chi-square difference tests can be used to compare nested models and determine whether adding or removing structural relationships significantly changes model fit.
+
+-   Overall, the two-step approach allows researchers to evaluate measurement problems separately from problems in the structural relationships.
+
+## Advantages of the Two-Step Approach
+
+-   The two-step approach allows researchers to evaluate the measurement model and structural model separately.
+
+-   This makes it easier to determine whether poor model fit comes from problems with the measurement of the constructs or from the relationships among the constructs.
+
+-   Testing the measurement model first also helps reduce interpretational confounding and keeps the meaning of the constructs more consistent.
+
+-   Another advantage is that good fit in one part of the model cannot hide poor fit in another part of the model.
+
+-   The approach allows researchers to test the significance of the factor loadings and make sure the constructs have acceptable measurement before testing the structural relationships.
+
+-   Researchers can also compare the proposed theoretical model with other possible models to better understand which relationships are supported.
+
+-   Adding more paths may improve model fit, but it can also make causal interpretations weaker. The two-step approach helps researchers consider this trade-off.
+
+-   Overall, the two-step approach provides a clearer way to evaluate measurement quality and theoretical relationships separately.
+
+## Additional Considerations in Structural Model Interpretation
+
+-   Researchers should consider both statistical significance and practical significance when interpreting structural models.
+
+-   Statistical tests such as the chi-square test can be affected by sample size. With a large sample, even small differences between the model and the data may become statistically significant.
+
+-   Because of this, researchers should not rely only on statistical significance when deciding whether a model fits well.
+
+-   Measures of practical fit can provide additional information about how well the model explains the data.
+
+-   Researchers should also be careful when making causal conclusions from structural equation models.
+
+-   A model with acceptable fit does not prove that the model is correct because other models may also fit the same data.
+
+-   Relationships between variables do not automatically prove that one variable causes another.
+
+-   Therefore, causal interpretations should be supported by theory and other evidence, not only by good model fit.
+
+# Conclusion
+
+-   Anderson and Gerbing recommend a two-step approach to structural equation modeling for theory testing and development.
+
+-   The first step is to evaluate the measurement model and make sure the indicators provide acceptable measurement of the constructs.
+
+-   After acceptable measurement has been established, the second step is to evaluate the structural model and test the proposed relationships among the constructs.
+
+-   Separating these two steps makes it easier to identify whether problems come from measurement or from the structural relationships.
+
+-   The approach also helps reduce interpretational confounding and provides a clearer way to compare the proposed model with alternative models.
+
+-   The authors also emphasize that model fit should not be the only consideration. Researchers should use theory when modifying models and should be careful when making causal conclusions.
+
+-   Overall, the two-step approach provides a more organized way to use SEM for testing and developing theories.
+
+# References
+
+Anderson, James C., and David W. Gerbing. 1988. “Structural Equation Modeling in Practice: A Review and Recommended Two-Step Approach.” *Psychological Bulletin* 103 (3): 411–423.
+
+# Appendix
