@@ -232,3 +232,6 @@ format:
 Anderson, James C., and David W. Gerbing. 1988. “Structural Equation Modeling in Practice: A Review and Recommended Two-Step Approach.” *Psychological Bulletin* 103 (3): 411–423.
 
 # Appendix
+
+-   [GitHub Repository](https://github.com/WillySuu/SEM01-Anderson-Gerbing)
+-   [Published Article Notes on GitHub Pages](https://willysuu.github.io/SEM01-Anderson-Gerbing/)
